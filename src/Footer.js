@@ -1,12 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./App.css";
 
 const Footer = () => (
   <>
     <footer class="footer border-top text-muted">
-      <div class="container">
-        © 2022 - FizzBuzzWeb -<a href="/privacy"> Privacy</a>
-      </div>
+      <p class="footer-thing">
+        <div class="container">
+          © 2022 - FizzBuzzWeb - <Link to="/privacy">Privacy</Link>
+        </div>
+      </p>
     </footer>
   </>
 );
