@@ -5,7 +5,7 @@ import "./App.css";
 const Footer = () => (
   <>
     <footer class="footer border-top text-muted">
-      <p class="footer-thing">
+      <p>
         <div class="container">
           © 2022 - FizzBuzzWeb - <Link to="/privacy">Privacy</Link>
         </div>
